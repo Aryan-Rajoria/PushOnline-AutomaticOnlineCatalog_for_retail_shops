@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Push Online</title>
+    <link href="E:\pushonline\style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascipt" src="script.js"></script>
+</head>
+
+<body>
+    <div class="login-form">
+        Username:
+        <input type="text" id="username" placeholder="Enter the Username" required><br>
+        <br> Password:
+        <input type="password" id="password" placeholder="Enter the Password" required><br>
+        <br>
+        <button type="submit" onclick="submit()" id="Submit">
+            Login
+        </button>
+
+    </div>
+</body>
+
+</html>
 
