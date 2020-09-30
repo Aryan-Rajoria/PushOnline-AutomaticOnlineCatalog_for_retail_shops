@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    
+}
+body {
+    background-color: black;
+}
+.nav__route {
+    display: flex;
+}
