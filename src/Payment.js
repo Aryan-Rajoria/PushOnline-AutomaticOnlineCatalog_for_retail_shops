@@ -36,11 +36,8 @@ function Payment() {
         getClientSecret();
     }, [basket])
 
-    console.log('THE SECRET IS >>>', clientSecret)
-    console.log('👱', user)
 
     const handleSubmit = async (event) => {
-        // do all the fancy stripe stuff...
         event.preventDefault();
         setProcessing(true);
 
@@ -99,8 +96,8 @@ function Payment() {
                     </div>
                     <div className='payment__address'>
                         <p>{user?.email}</p>
-                        <p>123 React Lane</p>
-                        <p>Los Angeles, CA</p>
+                        <p>1003 Flavia</p>
+                        <p>Navi Mumbai, Maharashtra</p>
                     </div>
                 </div>
 
